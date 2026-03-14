@@ -1,0 +1,112 @@
+(footprint "POWER_PAD_ARRAY"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa03a48a-eea3-4586-a4c3-4b54b7f7ee7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "POWER_PAD_ARRAY"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e55b074f-7134-4ea9-b5ed-c4363cdbb546")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd36af71-53d7-40ad-a6e9-92bd472c2a28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a296dc1c-b3ca-4e03-b7d1-a1a8663a953e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "-"
+		(at 1.29 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9614af3e-bb1a-450b-820b-125139af76be")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -1.25 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ce887f8f-dae5-4ff2-a480-a28ff4eb3276")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cdc4948a-64f1-4e53-97c4-f08c808a52c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.25 0 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.127)
+		(uuid "a653b2e0-23c0-468a-a025-876a62959ea2")
+	)
+	(pad "2" thru_hole circle
+		(at 1.29 0 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.127)
+		(uuid "f7ed575f-da13-401a-9087-262eab9ec23f")
+	)
+	(embedded_fonts no)
+)
