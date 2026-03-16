@@ -1,4 +1,4 @@
-(footprint "CK-6.35"
+(footprint "A-6976"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "CK-6.35"
+	(property "Value" "A-6976"
 		(at 6.217857 -2 0)
 		(unlocked yes)
 		(layer "F.Fab")
