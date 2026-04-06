@@ -1,7 +1,7 @@
 (footprint "TH_Cap_XL_Radial_D8.0mm_P2.50mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
 	(tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f567b553-9236-46c8-9db9-b248515ec338")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1643,7 +1633,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "9bdbd91d-5df2-4041-b110-19cc10dd0838")
 	)
@@ -1654,7 +1644,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8232cdb3-1007-4afa-a0c0-bb734803bf97")
 	)
@@ -1685,7 +1675,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d59c2d46-53ae-4bcb-a2f7-682ea6934925")
 	)
@@ -1716,7 +1706,8 @@
 		(remove_unused_layers no)
 		(uuid "6744905e-ea70-4017-8a1c-8b0acde781d3")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/CP_Radial_D8.0mm_P2.50mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
