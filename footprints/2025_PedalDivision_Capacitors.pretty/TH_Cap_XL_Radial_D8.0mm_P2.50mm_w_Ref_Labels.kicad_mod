@@ -1707,7 +1707,7 @@
 		(uuid "6744905e-ea70-4017-8a1c-8b0acde781d3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
+	(model "${PD_3D_MODELS}/CP_Radial_D8.0mm_P2.50mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
