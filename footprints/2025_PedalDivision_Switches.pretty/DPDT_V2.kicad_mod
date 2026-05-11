@@ -1,10 +1,10 @@
 (footprint "DPDT_V2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2.45 -7.65 0)
+		(at 0.05 -7.65 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6841ba89-6f8b-4614-838f-991784eaff15")
@@ -16,23 +16,10 @@
 		)
 	)
 	(property "Value" "DPDT_V2"
-		(at -2.45 8.05 0)
+		(at 0.05 8.05 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6a355a25-aee2-45bd-a463-78b3fea0d74b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c59e8067-290a-49e4-b822-63dcf74425c0")
 		(effects
 			(font
 				(size 1 1)
@@ -68,18 +55,18 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -8.85 -6.6)
-		(end 3.85 6.6)
+		(start -6.35 -6.6)
+		(end 6.35 6.6)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "931b1971-c034-4bf5-9fc2-19fd42fbbbb9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.4 9.7 0)
+		(at 0.1 9.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8cdbc779-ff56-4aed-8f87-bfb9ad68d028")
@@ -91,7 +78,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -5.3 -4.7)
+		(at -2.8 -4.7)
 		(size 3.5 2.1)
 		(drill oval 2.8 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -99,7 +86,7 @@
 		(uuid "e0cde16e-cf51-45a1-b40a-e2b8ef815b15")
 	)
 	(pad "2" thru_hole oval
-		(at -5.3 0)
+		(at -2.8 0)
 		(size 3.5 2.1)
 		(drill oval 2.8 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -107,7 +94,7 @@
 		(uuid "1017e938-4ff7-4260-8e7c-d968a2f5f40f")
 	)
 	(pad "3" thru_hole oval
-		(at -5.3 4.7)
+		(at -2.8 4.7)
 		(size 3.5 2.1)
 		(drill oval 2.8 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -115,7 +102,7 @@
 		(uuid "fbf77e10-2667-4e72-8c8c-ab892c0447b7")
 	)
 	(pad "4" thru_hole oval
-		(at 0 -4.7)
+		(at 2.5 -4.7)
 		(size 3.5 2.1)
 		(drill oval 2.8 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -123,7 +110,7 @@
 		(uuid "6d906905-c46c-492a-9f8f-aac463982745")
 	)
 	(pad "5" thru_hole oval
-		(at 0 0)
+		(at 2.5 0)
 		(size 3.5 2.1)
 		(drill oval 2.8 1.3)
 		(layers "*.Cu" "*.Mask")
@@ -131,13 +118,14 @@
 		(uuid "05aebf84-186a-49c1-aa06-c9a91e80420b")
 	)
 	(pad "6" thru_hole oval
-		(at 0 4.7)
+		(at 2.5 4.7)
 		(size 3.5 2.1)
 		(drill oval 2.8 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fa90f353-3a10-4f1c-a172-c135487557a9")
 	)
+	(embedded_fonts no)
 	(model "${PD_3D_MODELS}/DPDT.step"
 		(offset
 			(xyz -2.5 4.75 -0.5)

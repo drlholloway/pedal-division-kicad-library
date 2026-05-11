@@ -1,7 +1,7 @@
 (footprint "NMJ4HCD2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NMJ4HCD2")
 	(tags "Connector")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9b3a453c-ba54-4880-a87a-82876dacfe27")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -182,7 +172,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "88dedb20-0e11-4aad-b0ba-9df59babed21")
 	)
@@ -299,8 +289,8 @@
 		(remove_unused_layers no)
 		(uuid "6baae2da-c9e4-4df0-8198-41f105e4eb76")
 	)
+	(embedded_fonts no)
 	(model "${PD_3D_MODELS}/NMJ4HCD2.stp"
-		(hide yes)
 		(offset
 			(xyz -20.64999931 0 8.140000221)
 		)
@@ -312,6 +302,7 @@
 		)
 	)
 	(model "${PD_3D_MODELS}/NMJ4HCD2_no_nut.step"
+		(hide yes)
 		(offset
 			(xyz -20.649999 0 8.14)
 		)
