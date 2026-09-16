@@ -1,0 +1,168 @@
+(footprint "01x02_socket_jack_in"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e6daa99a-d815-47cb-bfea-4241aeaf594d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x02_socket_jack_in"
+		(at 0 3.0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06dc8566-23f7-49a0-bb7c-24c0e743f3e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e375879-c1e6-4d7c-9b06-ed9e6432466d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2-pin socket for input jack, horizontal, pin 1 (square) = Tip on LEFT, pin 2 (round) = Ring/sleeve on right"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d153af1e-606a-4e6e-8c27-4db8116547fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bf72ce72-6bd7-4c6d-ad96-9d370e0f8539")
+	)
+	(fp_circle
+		(center -3.175 0)
+		(end -3.048 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b2b394aa-ba2e-4b91-bbbf-77bb31551468")
+	)
+	(fp_rect
+		(start -2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "781ef510-cdf3-4cbf-b0ff-c21f36427324")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5bde1f1c-a51b-45d7-b9e1-232a6664638a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "T"
+		(at -1.27 -2.0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "45da19da-c965-4628-9326-0854537fae73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "R"
+		(at 1.27 -2.0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e5d642bc-ba76-4bb0-b784-917b0e9d1568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.27 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1230314961)
+		(thermal_bridge_angle 45)
+		(uuid "daea27b1-c968-4849-8e4c-5d37b9750e74")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b50323a-3dd9-44b9-9348-7f7b9f0de5d7")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
