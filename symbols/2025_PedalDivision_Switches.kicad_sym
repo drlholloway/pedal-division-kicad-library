@@ -1003,7 +1003,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 6.096 0)
+			(at 0.254 6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1013,7 +1013,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1023,7 +1023,7 @@
 			)
 		)
 		(property "Footprint" "2025_PedalDivision_Switches:DPDT_V2"
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1034,7 +1034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1045,7 +1045,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1056,7 +1056,7 @@
 			)
 		)
 		(property "ki_locked" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1067,7 +1067,7 @@
 		)
 		(symbol "DPDT_Toggle_Sw_1_1"
 			(circle
-				(center -2.286 0)
+				(center -2.032 0)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1079,7 +1079,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.254) (xy 1.397 2.286)
+					(xy -1.651 0.254) (xy 1.651 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1090,7 +1090,7 @@
 				)
 			)
 			(circle
-				(center 1.778 2.54)
+				(center 2.032 2.54)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1101,7 +1101,7 @@
 				)
 			)
 			(circle
-				(center 1.778 -2.54)
+				(center 2.032 -2.54)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1112,7 +1112,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.826 2.54 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1130,7 +1130,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.334 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1148,7 +1148,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.826 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1168,7 +1168,7 @@
 		)
 		(symbol "DPDT_Toggle_Sw_2_1"
 			(circle
-				(center -2.286 0)
+				(center -2.032 0)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1180,7 +1180,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.254) (xy 1.397 2.286)
+					(xy -1.651 0.254) (xy 1.651 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1191,7 +1191,7 @@
 				)
 			)
 			(circle
-				(center 1.778 2.54)
+				(center 2.032 2.54)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1202,7 +1202,7 @@
 				)
 			)
 			(circle
-				(center 1.778 -2.54)
+				(center 2.032 -2.54)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1213,7 +1213,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.826 2.54 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1231,7 +1231,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.334 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1249,7 +1249,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.826 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1276,7 +1276,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 6.096 0)
+			(at 0.254 6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1286,7 +1286,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1296,7 +1296,7 @@
 			)
 		)
 		(property "Footprint" "2025_PedalDivision_Switches:Mini Switch SPDT"
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1307,7 +1307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1318,7 +1318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1330,7 +1330,7 @@
 		)
 		(symbol "SPDT_Toggle_Sw_1_1"
 			(circle
-				(center -2.286 0)
+				(center -2.032 0)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1342,7 +1342,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.254) (xy 1.397 2.286)
+					(xy -1.651 0.254) (xy 1.651 2.286)
 				)
 				(stroke
 					(width 0)
@@ -1353,7 +1353,7 @@
 				)
 			)
 			(circle
-				(center 1.778 2.54)
+				(center 2.032 2.54)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1364,7 +1364,7 @@
 				)
 			)
 			(circle
-				(center 1.778 -2.54)
+				(center 2.032 -2.54)
 				(radius 0.4572)
 				(stroke
 					(width 0)
@@ -1375,7 +1375,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.826 2.54 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1393,7 +1393,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.334 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1411,7 +1411,7 @@
 				)
 			)
 			(pin passive line
-				(at 4.826 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name ""
 					(effects
