@@ -267,7 +267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometers:POT_16mm_Dual"
+		(property "Footprint" "2025_PedalDivision_Potentiometers:Pot_16mm_Dual"
 			(at 0 -9.525 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -289,7 +289,7 @@
 				)
 			)
 		)
-		(property "Description" "Use"
+		(property "Description" ""
 			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -300,7 +300,7 @@
 				)
 			)
 		)
-		(property "Usage Back" "Use"
+		(property "Label" "LABEL"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
