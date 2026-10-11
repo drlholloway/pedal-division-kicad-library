@@ -1,0 +1,219 @@
+(footprint "01x04_socket_power_jack_gnd"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9f248a0d-a61b-44c6-be1b-73b3500ae416")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x04_socket_power_jack_gnd"
+		(at 1.27 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92a1d05b-c9c6-4d90-af0b-bf3e8f6bf3ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6559fa84-4c48-425b-9c8e-838855e09ef1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4-pin socket for DC power plus jack grounds: Gnd (input jack), + (pin 1, square), -, Gnd (output jack)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbd1ae3a-8c12-406c-a097-cb0ed6fa7e0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.81 -1.27)
+		(end 6.35 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "564758df-4012-4e13-9211-d27967aabd4c")
+	)
+	(fp_rect
+		(start -3.81 -1.27)
+		(end 6.35 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c6ca7294-1450-4203-8fc6-df5ca35b9ce8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f9ed97f6-14d4-418b-a46a-6f9ebcf61e5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Gnd"
+		(at -2.54 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b51cee5-1f1f-4613-a0d7-1b0fdba8c4c7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc924a60-f843-49b8-9f5a-1baeea1573c9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 2.54 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56ace9ab-a85b-47a0-afca-a731ae7490c6")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "Gnd"
+		(at 5.08 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "157325a1-1f1c-4a04-b84f-3551966cd076")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1230314961)
+		(thermal_bridge_angle 45)
+		(uuid "720a26c1-5ad6-4704-90d6-36fb4b4381ec")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ca541084-a63c-42c6-9cbe-1b977f200684")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26840824-31e3-4af4-a8ce-cbdbaab96789")
+	)
+	(pad "4" thru_hole circle
+		(at 5.08 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58d0908c-c40d-42f5-9f5e-ea466a98ddf7")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz -2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 5.08 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
