@@ -207,4 +207,15 @@
 		(uuid "f9c0c39e-9227-4b64-ac48-789c1b030fbc")
 	)
 	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Rotary_1P8T_Mini.step"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
 )
