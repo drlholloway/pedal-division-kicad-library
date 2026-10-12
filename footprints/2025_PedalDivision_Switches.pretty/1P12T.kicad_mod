@@ -1,0 +1,358 @@
+(footprint "1P12T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Alpha SR2612F 26mm rotary switch, 1P12T, PCB pins on 22mm and 8mm circles. Body mounts on the back of the board; the footprint stays on the front, as 1P8T")
+	(tags "rotary switch 1P12T 26mm Alpha SR2612F")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "78a0dbcc-eb4d-463a-980a-b699274459d7")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "1P12T"
+		(at 0 6.6 0)
+		(layer "F.Fab")
+		(uuid "74621ef2-09e4-4e6d-8610-1c9ccb2fa839")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taiwanalpha.com/downloads?target=products&id=229"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d835b12-50fa-4b51-8fa1-b876735590db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d971e32-cf9d-4be7-9aa8-f3ae21c6fc09")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 13.1 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "8b34b4f0-f79a-44ec-bf09-9632a4ecd01d")
+	)
+	(fp_circle
+		(center 0 9.5)
+		(end 1.5 9.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "987d1f64-0627-4aa6-97cf-dfe82c78b784")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 13.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a13dcf0e-b1ca-4338-940f-4f2408adbebf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 13.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "eb66f91c-8299-4cb6-91e5-7ce0277068cb")
+	)
+	(fp_text user "A"
+		(at 4.2426 4.2426 0)
+		(layer "F.SilkS")
+		(uuid "e0dd7c46-07d8-40f3-9230-5838fb580416")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at 2.3035 8.5967 0)
+		(layer "F.SilkS")
+		(uuid "e87f6ca3-026e-4557-8d8b-0e2b1cc3cf13")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 6.2933 6.2933 0)
+		(layer "F.SilkS")
+		(uuid "f19a4707-4de1-477e-aa3d-8e06620838e0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 8.5967 2.3035 0)
+		(layer "F.SilkS")
+		(uuid "826983ca-5f90-4c83-ae3f-3e627906d675")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 8.5967 -2.3035 0)
+		(layer "F.SilkS")
+		(uuid "d6d2ba88-9be0-4971-9b7f-72dfc7fcbd67")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "5"
+		(at 6.2933 -6.2933 0)
+		(layer "F.SilkS")
+		(uuid "17f86a16-0536-428a-bfa7-ef637b881152")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "6"
+		(at 2.3035 -8.5967 0)
+		(layer "F.SilkS")
+		(uuid "446d969f-6ed4-45e0-a2c3-286ceddb0c1e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "7"
+		(at -2.3035 -8.5967 0)
+		(layer "F.SilkS")
+		(uuid "94f645e0-e90f-45a1-9d00-9dc682a057fe")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "8"
+		(at -6.2933 -6.2933 0)
+		(layer "F.SilkS")
+		(uuid "02fff7e9-b10d-460a-ba7f-f0dee2787250")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "9"
+		(at -8.5967 -2.3035 0)
+		(layer "F.SilkS")
+		(uuid "b1785333-71df-4cfd-8651-c007d19e16ed")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "10"
+		(at -8.5967 2.3035 0)
+		(layer "F.SilkS")
+		(uuid "d48b383e-8249-4701-a0c3-a630ee50b905")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "11"
+		(at -6.2933 6.2933 0)
+		(layer "F.SilkS")
+		(uuid "e7f8bf2d-d6cc-48cd-8eca-bb3ed7c81dce")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "12"
+		(at -2.3035 8.5967 0)
+		(layer "F.SilkS")
+		(uuid "ac0390c0-7c5c-4851-b424-64da01eb59f7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "A" thru_hole circle
+		(at 2.8284 2.8284)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d0a20cd-ab5f-439a-a364-1e5a1545a93d")
+	)
+	(pad "A1" thru_hole circle
+		(at 2.847 10.6252)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73a53beb-9d64-4d4f-8f75-3afc105f78aa")
+	)
+	(pad "A2" thru_hole circle
+		(at 7.7782 7.7782)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eeb30fcf-9a3f-458d-a36b-94bfaaa287db")
+	)
+	(pad "A3" thru_hole circle
+		(at 10.6252 2.847)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b881dd4-69cd-44af-ac6c-55a8aab2c9ef")
+	)
+	(pad "A4" thru_hole circle
+		(at 10.6252 -2.847)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32393cfa-f327-4f9e-8e73-816fa615ada3")
+	)
+	(pad "A5" thru_hole circle
+		(at 7.7782 -7.7782)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0dd06c5-d405-433e-9405-cbc99bc7bd8b")
+	)
+	(pad "A6" thru_hole circle
+		(at 2.847 -10.6252)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af82f429-23e9-4e1b-9aef-b2e3837763eb")
+	)
+	(pad "A7" thru_hole circle
+		(at -2.847 -10.6252)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d98ace9f-58e1-416d-a829-6aaa26819caf")
+	)
+	(pad "A8" thru_hole circle
+		(at -7.7782 -7.7782)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1ba61983-1e50-4b16-8423-db893565eade")
+	)
+	(pad "A9" thru_hole circle
+		(at -10.6252 -2.847)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf95428c-7b4e-4d2c-96b8-b102785a047d")
+	)
+	(pad "A10" thru_hole circle
+		(at -10.6252 2.847)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af686e4a-0083-4c98-b888-0b27ac0d45a7")
+	)
+	(pad "A11" thru_hole circle
+		(at -7.7782 7.7782)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6621360c-953a-43df-b857-7d15c4873521")
+	)
+	(pad "A12" thru_hole circle
+		(at -2.847 10.6252)
+		(size 2.2 2.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cd920ac-cdbc-4f63-9ecc-067143dc6af7")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Rotary_1P12T.step"
+		(offset
+			(xyz 0 0 -3.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
+)
