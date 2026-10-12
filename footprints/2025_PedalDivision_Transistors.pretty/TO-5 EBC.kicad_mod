@@ -3,35 +3,37 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TO-5-3, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
-	(tags "TO-5-3")
+	(descr "TO-5 metal can transistor, 3 leads on a 5.08mm pin circle, tab at the emitter")
+	(tags "TO-5 TO-39 metal can transistor EBC")
 	(property "Reference" "REF**"
-		(at 2.54 -5.81 0)
+		(at 2.54 -5.3 0)
 		(layer "F.SilkS")
-		(uuid "29d58d25-4a15-42f0-8c7c-aeabc9551400")
+		(uuid "9733b9f8-6217-4d37-9eda-4dcc16ba4c4d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
-	(property "Value" "TO-5 EBC"
-		(at 2.54 5.81 0)
-		(layer "F.Fab")
-		(uuid "f35ea014-4036-41f0-b6ac-89f9246762f4")
+	(property "Value" "VALUE"
+		(at 2.54 5.7 0)
+		(layer "F.SilkS")
+		(uuid "167a8718-e3a4-4191-abd6-b2962e34c3fd")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.125)
 			)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6467da88-1ce0-4129-98e6-1cd31053bcb7")
+		(uuid "3fb0990f-aa24-437a-b5be-612d1075c327")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,9 +43,10 @@
 	)
 	(property "Description" ""
 		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "56e6af7b-37bd-48a0-a03a-d5f334a99c6b")
+		(uuid "af69ce97-7c0b-4186-bb4f-3e1c0445c00c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7f82ec1e-4b7a-4d12-910a-c93260bb65d7")
+		(uuid "3a8258b2-f63a-437c-9078-5a65ad073f8d")
 	)
 	(fp_line
 		(start -1.271018 -4.574693)
@@ -70,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3aa3f036-26fb-4863-902b-a6abf6cbb91a")
+		(uuid "dc6eb116-f2cf-4c04-adcd-4b508cd1c773")
 	)
 	(fp_line
 		(start -0.457844 -3.76152)
@@ -80,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d7724daa-440c-4aab-80d1-dabce1fc4946")
+		(uuid "07d95683-ed13-42df-9bf1-702472f734b9")
 	)
 	(fp_arc
 		(start -0.457844 -3.76152)
@@ -91,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9d0cc542-4bb0-4b7e-b36d-43704173eef0")
+		(uuid "dea8c4c7-1525-4764-80be-998779a8aefc")
 	)
 	(fp_line
 		(start -2.231499 -3.809834)
@@ -101,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0019d4ae-1d2d-4610-b5e9-0345f153052d")
+		(uuid "63f317f4-45ee-45af-b5ea-fd8db1a056b6")
 	)
 	(fp_line
 		(start -1.269834 -4.771499)
@@ -111,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8c168e36-40b9-4033-81df-18fce357f390")
+		(uuid "52bbf6ee-d418-4d4f-b948-9cfe59208860")
 	)
 	(fp_line
 		(start -0.446162 -3.947827)
@@ -121,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0bc0de4c-039f-4a74-94a5-3beb5daf648f")
+		(uuid "67a65b51-f9e7-4db9-b35f-d6ec1965162d")
 	)
 	(fp_arc
 		(start -0.446162 -3.947827)
@@ -132,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a1cd4ce3-ca0e-494f-a4eb-0793c2778390")
+		(uuid "3d1bbeeb-d66a-476d-9583-0d7f2717480d")
 	)
 	(fp_line
 		(start -1.879621 -3.81151)
@@ -142,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "39ccd65d-bafe-4099-8595-cc752050b3c4")
+		(uuid "24021b55-7de1-471f-9c2f-b1c0c04dc7bb")
 	)
 	(fp_line
 		(start -1.27151 -4.419621)
@@ -152,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "084fbed8-cd0b-47d9-84cb-88b7596d9927")
+		(uuid "1d55db03-a2c5-4b91-a4ea-c4a80a035a08")
 	)
 	(fp_line
 		(start -0.465408 -3.61352)
@@ -162,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3344e993-bfaa-49a0-9423-ea528c7b5069")
+		(uuid "ea50e056-f52b-4106-af5c-fffd81d4f409")
 	)
 	(fp_arc
 		(start -0.465408 -3.61352)
@@ -173,7 +176,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a5033814-dd0f-4c62-8af5-4400a2b3f2ab")
+		(uuid "5105a25e-2ba1-4df0-81f1-c47da1a6fb18")
 	)
 	(fp_circle
 		(center 2.54 0)
@@ -184,51 +187,45 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "3007fb4d-5ec6-4e44-a887-95969cf9cf70")
+		(uuid "86ae3918-62b7-4ac6-af82-fad5a9eb9e5b")
 	)
-	(fp_text user "C"
-		(at 4.5 -1 0)
-		(unlocked yes)
+	(fp_text user "E"
+		(at 0 -1.3 0)
 		(layer "F.SilkS")
-		(uuid "510b01ca-7169-479f-bc88-69e493f21106")
+		(uuid "a941d827-cb33-4db2-8a17-f40fe9b0c3fa")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.6 0.6)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "B"
-		(at 2 1.5 0)
-		(unlocked yes)
+		(at 2.54 1.25 0)
 		(layer "F.SilkS")
-		(uuid "8c607d0f-2dce-40c7-ada6-cb9f85e452f6")
+		(uuid "01bd920b-ea14-4221-8724-a4bfaee479c0")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.6 0.6)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
-	(fp_text user "E"
-		(at -0.5 -1 0)
-		(unlocked yes)
+	(fp_text user "C"
+		(at 5.08 -1.3 0)
 		(layer "F.SilkS")
-		(uuid "f289249c-51da-40ad-be27-26bb485e0da5")
+		(uuid "a01bffa5-c684-4272-99c7-122d9271e3b1")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.6 0.6)
 				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.54 -5.81 0)
+		(at 2.54 0 0)
 		(layer "F.Fab")
-		(uuid "659d0885-26bd-4f3d-96f5-73a06c8f2daf")
+		(uuid "59f36cd6-4519-4a36-90e5-3d6d1b8d6dc9")
 		(effects
 			(font
 				(size 1 1)
@@ -236,32 +233,33 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
+	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.6 1.2)
-		(drill 0.7)
+		(size 1.5 1.5)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a58c15c1-f7c6-41f7-b2e4-f083670b31eb")
+		(roundrect_rratio 0.1666666667)
+		(uuid "25aa51bc-97bc-4556-baa2-a447a8289010")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 2.54)
-		(size 1.2 1.2)
-		(drill 0.7)
+		(size 1.5 1.5)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "21360bbc-09d2-4544-9705-268261da29e9")
+		(uuid "bcf105e0-7c8c-43c8-bb4a-cb819b828e96")
 	)
 	(pad "3" thru_hole circle
 		(at 5.08 0)
-		(size 1.2 1.2)
-		(drill 0.7)
+		(size 1.5 1.5)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "485e56ed-ce78-49cb-a0b9-3cb88f739741")
+		(uuid "bad7fc51-f56c-4d6c-aa57-99478e6c2f47")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-5-3.step"
+	(model "${PD_3D_MODELS}/TO-5-3.step"
 		(offset
 			(xyz 0 0 0)
 		)
