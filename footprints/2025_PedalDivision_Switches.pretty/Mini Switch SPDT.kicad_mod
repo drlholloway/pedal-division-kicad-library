@@ -104,15 +104,15 @@
 		(remove_unused_layers no)
 		(uuid "13359223-126f-41e6-85d3-ef2df455a6ba")
 	)
-	(model "${PD_3D_MODELS}/DPDT.step"
+	(model "${PD_3D_MODELS}/MTS-102.step"
 		(offset
-			(xyz 0 4.7 0)
+			(xyz 0 0 10)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 90 0 0)
 		)
 	)
 )

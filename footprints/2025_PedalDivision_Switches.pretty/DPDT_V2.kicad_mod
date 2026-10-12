@@ -126,15 +126,15 @@
 		(uuid "fa90f353-3a10-4f1c-a172-c135487557a9")
 	)
 	(embedded_fonts no)
-	(model "${PD_3D_MODELS}/DPDT.step"
+	(model "${PD_3D_MODELS}/MTS-202.step"
 		(offset
-			(xyz -2.5 4.75 -0.5)
+			(xyz -0.15 0 10)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 90 0 0)
 		)
 	)
 )
