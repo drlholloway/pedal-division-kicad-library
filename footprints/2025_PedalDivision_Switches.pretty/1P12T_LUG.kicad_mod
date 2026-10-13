@@ -1,0 +1,358 @@
+(footprint "1P12T_LUG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Alpha SR2611F 26mm rotary switch, 1P12T, solder lugs soldered into slots on 22mm and 8mm circles. Body mounts on the back of the board; the footprint stays on the front, as 1P12T")
+	(tags "rotary switch 1P12T 26mm Alpha SR2611F solder lug")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5d645cb9-61b8-446c-b7f8-db8fde796bcc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "1P12T_LUG"
+		(at 0 6.6 0)
+		(layer "F.Fab")
+		(uuid "7d3ef643-083f-46eb-aa1b-ea49733dfa03")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taiwanalpha.com/downloads?target=products&id=228"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf324a64-55b3-4149-b863-10f0432ffa48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "094288a0-78b2-4f1e-a0fe-54555ed1542f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 13.1 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "fa857ba7-bab2-4860-8f72-0eba971c2ebd")
+	)
+	(fp_circle
+		(center 0 9.5)
+		(end 0.8 9.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "b403aa1e-2a52-42ea-b931-d5c8705d47b2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 13.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "331fb12e-a6ae-4788-b57e-190fd4e04178")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 13.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "d6adae48-7b8a-4214-a2f2-767e489c9107")
+	)
+	(fp_text user "A"
+		(at 4.2426 4.2426 0)
+		(layer "F.SilkS")
+		(uuid "72330411-2824-4191-986f-8fcf2c7a634f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at 2.3035 8.5967 0)
+		(layer "F.SilkS")
+		(uuid "9f5896ad-5e8f-43f3-9454-96cb1e9fda3a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at 6.2933 6.2933 0)
+		(layer "F.SilkS")
+		(uuid "1850b311-0d52-453e-aedd-c8887af02c57")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 8.5967 2.3035 0)
+		(layer "F.SilkS")
+		(uuid "55bf6e6f-de1c-4bf4-9464-9bca23c7ee34")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at 8.5967 -2.3035 0)
+		(layer "F.SilkS")
+		(uuid "b0be8994-bcc3-4195-966c-cbba19e9f9d2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "5"
+		(at 6.2933 -6.2933 0)
+		(layer "F.SilkS")
+		(uuid "d57f8659-f85c-423b-83b1-1a34ae9ccbdb")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "6"
+		(at 2.3035 -8.5967 0)
+		(layer "F.SilkS")
+		(uuid "df6e27a3-c574-4e7e-868d-10a2e4f0b5de")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "7"
+		(at -2.3035 -8.5967 0)
+		(layer "F.SilkS")
+		(uuid "782a64ac-8947-4bd6-b461-c51437d44588")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "8"
+		(at -6.2933 -6.2933 0)
+		(layer "F.SilkS")
+		(uuid "569672da-97d9-49fc-a37b-467ba25fbe16")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "9"
+		(at -8.5967 -2.3035 0)
+		(layer "F.SilkS")
+		(uuid "ed29a2f8-1bcc-45f3-89da-47109bed3012")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "10"
+		(at -8.5967 2.3035 0)
+		(layer "F.SilkS")
+		(uuid "b163d5b4-4968-4e25-a6b3-ee48247d8db9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "11"
+		(at -6.2933 6.2933 0)
+		(layer "F.SilkS")
+		(uuid "332eb28e-0ebc-49ba-8fdf-46ef085d94fd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "12"
+		(at -2.3035 8.5967 0)
+		(layer "F.SilkS")
+		(uuid "801c97f1-42ca-4034-a1b2-fbd71021520b")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "A" thru_hole oval
+		(at 2.8284 2.8284 45)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5dfaded7-b2fc-48c1-a3ed-34fa14fbde94")
+	)
+	(pad "A1" thru_hole oval
+		(at 2.847 10.6252 14.9999)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8efab99c-54d4-4605-9db6-258cd12fadf1")
+	)
+	(pad "A2" thru_hole oval
+		(at 7.7782 7.7782 45)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a082582-a662-4bb0-859f-f0508b7987d1")
+	)
+	(pad "A3" thru_hole oval
+		(at 10.6252 2.847 75.0001)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f829d221-2496-4e21-9c55-a1442ccb9555")
+	)
+	(pad "A4" thru_hole oval
+		(at 10.6252 -2.847 104.9999)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf27a2c6-253f-43dc-b003-1ad08b168ee9")
+	)
+	(pad "A5" thru_hole oval
+		(at 7.7782 -7.7782 135)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "febfb897-a4f6-45de-8abb-2125f193351f")
+	)
+	(pad "A6" thru_hole oval
+		(at 2.847 -10.6252 165.0001)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "328e6d40-1115-435c-ab14-f07bbed5bdeb")
+	)
+	(pad "A7" thru_hole oval
+		(at -2.847 -10.6252 14.9999)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e55359c-62d5-4f57-b886-88d967df0c40")
+	)
+	(pad "A8" thru_hole oval
+		(at -7.7782 -7.7782 45)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "729ecc96-e19b-4528-a048-d8ff4f71c8ac")
+	)
+	(pad "A9" thru_hole oval
+		(at -10.6252 -2.847 75.0001)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "129f854c-fd77-4ec3-a1e2-afeda058c039")
+	)
+	(pad "A10" thru_hole oval
+		(at -10.6252 2.847 104.9999)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c135e6a-8978-4f0a-b550-1a30f8d3de9f")
+	)
+	(pad "A11" thru_hole oval
+		(at -7.7782 7.7782 135)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5de1978b-c54d-4718-8d49-7505c0f704eb")
+	)
+	(pad "A12" thru_hole oval
+		(at -2.847 10.6252 165.0001)
+		(size 3.7 2.2)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "347a992c-132a-445a-bbf5-8c986e1816c5")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Rotary_1P12T_Lug.step"
+		(offset
+			(xyz 0 0 -3.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 90)
+		)
+	)
+)
