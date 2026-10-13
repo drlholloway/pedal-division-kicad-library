@@ -1,0 +1,150 @@
+(footprint "3mm LED Narrow"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3mm round LED seated flush on the front of the board, 2.54 x 4.1mm courtyard for clipping diodes; the 3mm body and 3.8mm flange overhang the courtyard, so do not place these side by side at less than 3.9mm. Pin 1 (square pad, flat side) is the cathode")
+	(tags "LED 3mm round vertical clipping diode narrow")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d842d5c1-71c4-483a-943a-15c09e4342ff")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "COLOR"
+		(at 0 0 -90)
+		(layer "F.SilkS")
+		(uuid "80941e03-2311-4f73-b23b-bba62c176675")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a3b8145-9d89-41c7-866a-98f94761c00f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93826a16-47c1-46cd-b72e-856ba01a2a0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.95 -1.1)
+		(end -0.55 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecdbb578-c4df-4224-96af-5c264b7314df")
+	)
+	(fp_line
+		(start 0.55 -1.1)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd3a65a8-a57e-4ce6-a84f-2989221823f0")
+	)
+	(fp_line
+		(start -1.95 1.1)
+		(end -0.55 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fdc3c7a-fcd7-4b9d-be67-83ed40639dba")
+	)
+	(fp_line
+		(start 0.55 1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5026b7a-d86c-4fff-b615-e9ed5b967b24")
+	)
+	(fp_rect
+		(start -2.05 -1.27)
+		(end 2.05 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "72ee6f1a-2262-4122-bf83-e11c8876e101")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19416d15-408b-48c1-a139-df645418eff1")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.27 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "d7326b47-4733-4a3f-9bd7-66307e3a179c")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdeb00c5-dddd-4261-aaa8-c8168b9d3c8d")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Led_3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
