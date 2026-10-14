@@ -1,4 +1,4 @@
-(footprint "Pot_Trim_7x6.6mm_T73YE_test"
+(footprint "Pot_Trim_7x6.6mm_with_tp"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -600,4 +600,15 @@
 		(uuid "54d8bfde-9baf-404f-8db5-d61342fc9c15")
 	)
 	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/3362 smd resistor pot v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

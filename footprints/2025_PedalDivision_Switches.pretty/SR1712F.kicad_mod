@@ -306,4 +306,15 @@
 		(uuid "7578d3be-14e2-4c91-a29e-fe5382d601bc")
 	)
 	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/SR1712F.step"
+		(offset
+			(xyz 0 1.04 -0.37)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
