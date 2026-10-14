@@ -319,15 +319,15 @@
 		(uuid "75f95da1-b199-4f76-bfa0-f03546765940")
 	)
 	(embedded_fonts no)
-	(model "/Library/Application Support/kicad/packages3d-kicad5/Potentiometers.3dshapes/Potentiometer_Trimmer_Piher_PT-6v_Horizontal.wrl"
+	(model "${PD_3D_MODELS}/Pot_Trim_Round_6mm.step"
 		(offset
-			(xyz 2.5 -2.5 -0.4)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 0.393 0.393 0.393)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 0)
 		)
 	)
 )
