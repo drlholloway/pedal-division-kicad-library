@@ -1,0 +1,228 @@
+(footprint "DIP-6_W7.62mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6-lead dip package, row spacing 7.62 mm (300 mils)")
+	(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil")
+	(property "Reference" "REF**"
+		(at 0 -4.864 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa8fb31b-2bce-4eaf-82fa-a7e0d458202a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VALUE"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "5ac06dac-c2d3-4480-a8aa-2d994de09cc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d46342c9-c4dc-4889-ab68-0f9592dfeec4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3603a01f-5206-490e-960b-b5f22ee7b296")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c9b3d85-9c13-45c7-bd33-bc0970b304d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.74 -3.93)
+		(end -2.74 3.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "787f45d7-a8bd-485e-9feb-4e0572fbaeda")
+	)
+	(fp_line
+		(start -2.74 3.93)
+		(end 2.74 3.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d887170-e272-4861-b243-f06c9fbad32f")
+	)
+	(fp_line
+		(start -1 -3.93)
+		(end -2.74 -3.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94e2c134-f05a-49e2-8736-d0ad8223ec01")
+	)
+	(fp_line
+		(start 2.74 -3.93)
+		(end 1 -3.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22f4a866-5025-4e9b-8e1d-7132f0bfd1d5")
+	)
+	(fp_line
+		(start 2.74 3.93)
+		(end 2.74 -3.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9df04762-e919-4b7f-9647-d7bac949df73")
+	)
+	(fp_arc
+		(start 1 -3.93)
+		(mid 0 -2.93)
+		(end -1 -3.93)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc9bd6e5-a610-40f0-8da7-f12ca6b40c75")
+	)
+	(fp_line
+		(start -5.06 -4.14)
+		(end -5.06 4.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "661f1634-d2a8-4931-ae27-1b05ce613d63")
+	)
+	(fp_line
+		(start -5.06 4.14)
+		(end 5.06 4.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1213820-5478-4651-8e1d-3c8e7f53acc1")
+	)
+	(fp_line
+		(start 5.06 -4.14)
+		(end -5.06 -4.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8f176af-9f85-49c2-ac92-590792b9a10f")
+	)
+	(fp_line
+		(start 5.06 4.14)
+		(end 5.06 -4.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bd0874c-3a04-4498-ab9e-6561aa2095c6")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b78d2934-f319-4504-852b-decbeb36246e")
+	)
+	(pad "2" thru_hole oval
+		(at -3.81 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39ece19e-716d-403e-a000-aff79499cf77")
+	)
+	(pad "3" thru_hole oval
+		(at -3.81 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27f2b9a3-fe78-4c8a-9137-93d7c0853431")
+	)
+	(pad "4" thru_hole oval
+		(at 3.81 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dc8888e-a4b0-4310-9ac2-6e810e3d9266")
+	)
+	(pad "5" thru_hole oval
+		(at 3.81 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e649a9d-fe84-4527-ac4f-935d58ff4c17")
+	)
+	(pad "6" thru_hole oval
+		(at 3.81 -2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3cf55d0-40cf-41c8-a5dc-000a83a77a44")
+	)
+	(model "${PD_3D_MODELS}/DIP-6_W7.62mm.step"
+		(offset
+			(xyz -3.81 2.54 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

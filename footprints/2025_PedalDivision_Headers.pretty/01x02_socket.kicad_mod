@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -5.08 0 90)
+		(at -5.08 -1.27 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "01x02_socket"
-		(at 7.62 0 90)
+		(at 7.62 -1.27 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "715c67e0-c10a-40f0-b6bb-a4163dc83bf5")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 -1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 -1.27 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -1.27 -1.27)
-		(end 1.27 3.81)
+		(start -1.27 -2.54)
+		(end 1.27 2.54)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -67,8 +67,8 @@
 		(uuid "c8216372-ea5f-4923-97e1-3c4a3a6361ba")
 	)
 	(fp_circle
-		(center 1.905 0)
-		(end 2.032 0)
+		(center 1.905 -1.27)
+		(end 2.032 -1.27)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -78,8 +78,8 @@
 		(uuid "d10e2877-c6b0-4261-97cc-72afa4f0114e")
 	)
 	(fp_rect
-		(start -1.27 -1.27)
-		(end 1.27 3.81)
+		(start -1.27 -2.54)
+		(end 1.27 2.54)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -89,7 +89,7 @@
 		(uuid "9d00cf48-f103-4e8d-bd7f-fdb416373b81")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.08 0 90)
+		(at 5.08 -1.27 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "afe11003-7782-41a4-a9ee-1c6c55a96b32")
@@ -101,7 +101,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 0 0)
+		(at 0 -1.27)
 		(size 2.032 2.032)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
@@ -111,7 +111,7 @@
 		(uuid "685f7de0-a82f-4fb1-86a6-d52cb706650e")
 	)
 	(pad "2" thru_hole circle
-		(at 0 2.54)
+		(at 0 1.27)
 		(size 2.032 2.032)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
@@ -121,7 +121,7 @@
 	(embedded_fonts no)
 	(model "${PD_3D_MODELS}/Female Pin Header.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 1.27 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -132,7 +132,7 @@
 	)
 	(model "${PD_3D_MODELS}/Female Pin Header.step"
 		(offset
-			(xyz 0 -2.54 0)
+			(xyz 0 -1.27 0)
 		)
 		(scale
 			(xyz 1 1 1)

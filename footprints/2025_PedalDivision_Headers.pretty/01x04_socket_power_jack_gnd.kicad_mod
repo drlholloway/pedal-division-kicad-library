@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.27 -3.5 0)
+		(at 0 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "01x04_socket_power_jack_gnd"
-		(at 1.27 3.5 0)
+		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "92a1d05b-c9c6-4d90-af0b-bf3e8f6bf3ff")
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -1.27 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" "4-pin socket for DC power plus jack grounds: Gnd (input jack), + (pin 1, square), -, Gnd (output jack)"
-		(at 0 0 0)
+		(at -1.27 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,8 +56,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -3.81 -1.27)
-		(end 6.35 1.27)
+		(start -5.08 -1.27)
+		(end 5.08 1.27)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -67,8 +67,8 @@
 		(uuid "564758df-4012-4e13-9211-d27967aabd4c")
 	)
 	(fp_rect
-		(start -3.81 -1.27)
-		(end 6.35 1.27)
+		(start -5.08 -1.27)
+		(end 5.08 1.27)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -78,7 +78,7 @@
 		(uuid "c6ca7294-1450-4203-8fc6-df5ca35b9ce8")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.27 0 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f9ed97f6-14d4-418b-a46a-6f9ebcf61e5a")
@@ -90,7 +90,7 @@
 		)
 	)
 	(fp_text user "Gnd"
-		(at -2.54 1.9 0)
+		(at -3.81 1.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9b51cee5-1f1f-4613-a0d7-1b0fdba8c4c7")
@@ -102,7 +102,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at 0 1.9 0)
+		(at -1.27 1.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "dc924a60-f843-49b8-9f5a-1baeea1573c9")
@@ -114,7 +114,7 @@
 		)
 	)
 	(fp_text user "-"
-		(at 2.54 1.9 0)
+		(at 1.27 1.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "56ace9ab-a85b-47a0-afca-a731ae7490c6")
@@ -126,7 +126,7 @@
 		)
 	)
 	(fp_text user "Gnd"
-		(at 5.08 1.9 0)
+		(at 3.81 1.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "157325a1-1f1c-4a04-b84f-3551966cd076")
@@ -138,7 +138,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 0 0)
+		(at -1.27 0)
 		(size 2.032 2.032)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
@@ -148,7 +148,7 @@
 		(uuid "720a26c1-5ad6-4704-90d6-36fb4b4381ec")
 	)
 	(pad "2" thru_hole circle
-		(at 2.54 0)
+		(at 1.27 0)
 		(size 2.032 2.032)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
@@ -156,7 +156,7 @@
 		(uuid "ca541084-a63c-42c6-9cbe-1b977f200684")
 	)
 	(pad "3" thru_hole circle
-		(at -2.54 0)
+		(at -3.81 0)
 		(size 2.032 2.032)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
@@ -164,7 +164,7 @@
 		(uuid "26840824-31e3-4af4-a8ce-cbdbaab96789")
 	)
 	(pad "4" thru_hole circle
-		(at 5.08 0)
+		(at 3.81 0)
 		(size 2.032 2.032)
 		(drill 1.016)
 		(layers "*.Cu" "*.Mask")
@@ -174,7 +174,7 @@
 	(embedded_fonts no)
 	(model "${PD_3D_MODELS}/Female Pin Header.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -1.27 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -185,7 +185,7 @@
 	)
 	(model "${PD_3D_MODELS}/Female Pin Header.step"
 		(offset
-			(xyz 2.54 0 0)
+			(xyz 1.27 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -196,7 +196,7 @@
 	)
 	(model "${PD_3D_MODELS}/Female Pin Header.step"
 		(offset
-			(xyz -2.54 0 0)
+			(xyz -3.81 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -207,7 +207,7 @@
 	)
 	(model "${PD_3D_MODELS}/Female Pin Header.step"
 		(offset
-			(xyz 5.08 0 0)
+			(xyz 3.81 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
