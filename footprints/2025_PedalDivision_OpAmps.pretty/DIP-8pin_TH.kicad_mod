@@ -6,7 +6,7 @@
 	(descr "8-lead dip package, row spacing 7.62 mm (300 mils)")
 	(tags "DIL DIP PDIP 2.54mm 7.62mm 300mil")
 	(property "Reference" "REF**"
-		(at 3.82 -2.324 0)
+		(at 0.01 -6.134 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "7b87c77a-6baa-4345-8fef-50908551facc")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "VALUE"
-		(at 3.91 4 90)
+		(at 0.1 0.19 90)
 		(layer "F.SilkS")
 		(uuid "dabd9e60-a1cd-498d-b3d2-169522cf0c66")
 		(effects
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at -3.81 -3.81 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -3.81 -3.81 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,7 +53,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -3.81 -3.81 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -66,8 +66,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.07 -1.39)
-		(end 1.07 9.01)
+		(start -2.74 -5.2)
+		(end -2.74 5.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "459a7e73-ec98-424b-9a6a-561af9097924")
 	)
 	(fp_line
-		(start 1.07 9.01)
-		(end 6.55 9.01)
+		(start -2.74 5.2)
+		(end 2.74 5.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "f3969624-f724-4b21-b3e4-f3a94171ed96")
 	)
 	(fp_line
-		(start 2.81 -1.39)
-		(end 1.07 -1.39)
+		(start -1 -5.2)
+		(end -2.74 -5.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "40def913-7593-4d51-8f10-72ecee686619")
 	)
 	(fp_line
-		(start 6.55 -1.39)
-		(end 4.81 -1.39)
+		(start 2.74 -5.2)
+		(end 1 -5.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "f77778b5-f79a-452a-a2c9-3d2ebae495af")
 	)
 	(fp_line
-		(start 6.55 9.01)
-		(end 6.55 -1.39)
+		(start 2.74 5.2)
+		(end 2.74 -5.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,9 +116,9 @@
 		(uuid "8ed3d71e-16d3-486c-9539-eb52f05de28d")
 	)
 	(fp_arc
-		(start 4.81 -1.39)
-		(mid 3.81 -0.39)
-		(end 2.81 -1.39)
+		(start 1 -5.2)
+		(mid 0 -4.2)
+		(end -1 -5.2)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -127,8 +127,8 @@
 		(uuid "ac27714b-b828-4ad9-8544-74e768899d1d")
 	)
 	(fp_line
-		(start -1.25 -1.6)
-		(end -1.25 9.2)
+		(start -5.06 -5.41)
+		(end -5.06 5.39)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "b74478fa-2f85-40b7-9955-0e4dc3a56d6d")
 	)
 	(fp_line
-		(start -1.25 9.2)
-		(end 8.87 9.2)
+		(start -5.06 5.39)
+		(end 5.06 5.39)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -147,8 +147,8 @@
 		(uuid "6f0506c6-09cd-498e-bef6-9364a12fb382")
 	)
 	(fp_line
-		(start 8.87 -1.6)
-		(end -1.25 -1.6)
+		(start 5.06 -5.41)
+		(end -5.06 -5.41)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -157,8 +157,8 @@
 		(uuid "eb7cea56-81e1-4b90-aff9-6d646fa8f66f")
 	)
 	(fp_line
-		(start 8.87 9.2)
-		(end 8.87 -1.6)
+		(start 5.06 5.39)
+		(end 5.06 -5.41)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -167,7 +167,7 @@
 		(uuid "86c28b79-08da-43c3-ae72-76539acae1bf")
 	)
 	(pad "1" thru_hole rect
-		(at 0 0)
+		(at -3.81 -3.81)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -175,7 +175,7 @@
 		(uuid "f3c57063-98d2-478a-8b68-d7c1bab977ef")
 	)
 	(pad "2" thru_hole oval
-		(at 0 2.54)
+		(at -3.81 -1.27)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -183,7 +183,7 @@
 		(uuid "2967acf0-63bc-4ed2-a207-b7f31025a842")
 	)
 	(pad "3" thru_hole oval
-		(at 0 5.08)
+		(at -3.81 1.27)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -191,7 +191,7 @@
 		(uuid "0fe8ecdd-baee-460a-907f-d07baaf7a40a")
 	)
 	(pad "4" thru_hole oval
-		(at 0 7.62)
+		(at -3.81 3.81)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -199,7 +199,7 @@
 		(uuid "88f313b7-677d-43e0-b2b9-03bec194ee0b")
 	)
 	(pad "5" thru_hole oval
-		(at 7.62 7.62)
+		(at 3.81 3.81)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -207,7 +207,7 @@
 		(uuid "acfce5d4-3a3b-44b6-b80a-4416ec48b990")
 	)
 	(pad "6" thru_hole oval
-		(at 7.62 5.08)
+		(at 3.81 1.27)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -215,7 +215,7 @@
 		(uuid "9c27d72c-7d15-41de-99a2-7cdf73b1ab33")
 	)
 	(pad "7" thru_hole oval
-		(at 7.62 2.54)
+		(at 3.81 -1.27)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -223,7 +223,7 @@
 		(uuid "a5d10b4d-24e7-4a72-8877-aab8c3881825")
 	)
 	(pad "8" thru_hole oval
-		(at 7.62 0)
+		(at 3.81 -3.81)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -232,7 +232,7 @@
 	)
 	(model "${PD_3D_MODELS}/DIP-8_W7.62mm.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -3.81 3.81 0)
 		)
 		(scale
 			(xyz 1 1 1)
