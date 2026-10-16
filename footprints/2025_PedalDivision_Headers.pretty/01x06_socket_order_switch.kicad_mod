@@ -1,0 +1,281 @@
+(footprint "01x06_socket_order_switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65230a84-b78f-4615-85a7-ef9e509fde96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x06_socket_order_switch"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1ce2a6b4-a9f7-4e08-8538-2f721175cd4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ba26734-d1d1-4144-8b2e-57165cd5235a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6-pin socket for an order switcher: In (pin 1, square), Send 1, Return 1, Send 2, Return 2, Out"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3525cdcd-3618-410a-bbe2-8974e01a1088")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.62 -1.27)
+		(end 7.62 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a56100eb-9c02-4fcc-bf42-6883fdaaeb0b")
+	)
+	(fp_rect
+		(start -7.62 -1.27)
+		(end 7.62 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "386711b5-e00e-4715-8c70-09aa49f96cbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9f5e1be-311d-4968-b675-ffd06ab5b63a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN"
+		(at -6.35 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "edf05a25-ccb7-4da5-b67a-64a7b1c97f09")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "S1"
+		(at -3.81 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2036ac39-6359-4c7e-97f9-8f7d49dc5247")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "R1"
+		(at -1.27 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "879919d6-6409-4cd8-b242-1a6dd4195b62")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "S2"
+		(at 1.27 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f91e5fbc-f1e7-44d9-865f-45afb0eeb228")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "R2"
+		(at 3.81 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "593437bb-5170-4ea4-a583-211eb729bf9c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "OUT"
+		(at 6.35 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "47ee8951-30d1-4772-84d2-845e57bb5778")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -6.35 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1230314961)
+		(thermal_bridge_angle 45)
+		(uuid "6c5fdbc2-3ca2-4bd5-aa0f-354cdf9630da")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf00b2e0-ef58-4685-8ce4-08022450df47")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ed9889b-3425-438e-8607-0781253a4196")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afd0cb98-6269-4b9f-9b7a-090ec1d79f53")
+	)
+	(pad "5" thru_hole circle
+		(at 3.81 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7c379cf-f8a5-4243-88d6-0dedc86078c4")
+	)
+	(pad "6" thru_hole circle
+		(at 6.35 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bcdbc60b-3234-40a6-af20-30bd156001a5")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz -6.35 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz -3.81 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 3.81 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 6.35 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
