@@ -1,4 +1,4 @@
-(footprint "DIP-8pin_TH"
+(footprint "DIP-8_W7.62mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

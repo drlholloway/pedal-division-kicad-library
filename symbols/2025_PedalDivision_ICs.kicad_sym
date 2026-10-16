@@ -963,7 +963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2025_PedalDivision_OpAmps:DIP-8pin_TH"
+		(property "Footprint" "2025_PedalDivision_OpAmps:DIP-8_W7.62mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1201,7 +1201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "2025_PedalDivision_OpAmps:DIP-8pin_TH"
+		(property "Footprint" "2025_PedalDivision_OpAmps:DIP-8_W7.62mm"
 			(at 2.54 2.54 0)
 			(effects
 				(font
@@ -1429,7 +1429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2025_PedalDivision_OpAmps:DIP-8pin_TH"
+		(property "Footprint" "2025_PedalDivision_OpAmps:DIP-8_W7.62mm"
 			(at 0 0 0)
 			(effects
 				(font
