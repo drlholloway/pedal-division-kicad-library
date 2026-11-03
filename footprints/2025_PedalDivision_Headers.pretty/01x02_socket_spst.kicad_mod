@@ -1,0 +1,156 @@
+(footprint "01x02_socket_spst"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.08 -1.27 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24972e2b-8b81-4c9f-b2f2-8a8103c91433")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x02_socket_spst"
+		(at 7.62 -1.27 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "83339ae6-a50a-44b0-b728-79b800fc6498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1292af3-9b1d-4f0f-9240-aa98818289a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2-pin socket for an SPST switch wired off the board (footswitch or toggle): pin 1 (square), pin 2"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21992edc-9829-4fc6-a598-c5e4b5ac2439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.27 -2.54)
+		(end 1.27 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d5f42e90-f20b-418a-abde-36c326be192a")
+	)
+	(fp_circle
+		(center 1.905 -1.27)
+		(end 2.032 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "59873528-e974-412d-9dbe-2ebf6db8fc4c")
+	)
+	(fp_rect
+		(start -1.27 -2.54)
+		(end 1.27 2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a22afcb9-e895-4011-9e5b-fc336c240da8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 -1.27 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a44dcade-6586-42fa-aebc-640a4365d679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SW"
+		(at -2.54 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6dd3756d-ea70-4922-88c1-3c2912dd2f0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -1.27)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1230314961)
+		(thermal_bridge_angle 45)
+		(uuid "6f6d118b-b9bb-4bb3-a264-33e5247a33c3")
+	)
+	(pad "2" thru_hole circle
+		(at 0 1.27)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "551fcc86-f4ef-4920-92a1-9119393f6851")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 0 1.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 0 -1.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
