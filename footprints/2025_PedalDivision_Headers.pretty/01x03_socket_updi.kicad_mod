@@ -1,0 +1,188 @@
+(footprint "01x03_socket_updi"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "920f6918-2b54-4e30-992e-6a0aae25db46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "01x03_socket_updi"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f9cca79-ca24-4a9f-b3fc-4bf85448f14d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d2322bd-0679-4368-a29f-f52f5a1a7ee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3-pin socket for UPDI programming: GND (pin 1, square), 5V, UPDI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e935130-d817-4dff-99c1-d406e5378c18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.81 -1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a960b9ef-ca36-418d-9c29-83a9b2423f04")
+	)
+	(fp_rect
+		(start -3.81 -1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "86f04009-cd47-4f16-819b-ea20c6171cb1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "25b44dbf-19dd-4cf4-ba3b-3bb9cef7fe35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.54 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "283501f8-bd66-4934-8ea1-ccb260e5b5e8")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "5V"
+		(at 0 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "263c2a9e-f5a8-4b51-a9de-6a905355d8b0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(fp_text user "UPDI"
+		(at 2.54 1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9ccd619b-b5e1-4fa3-87d6-6f17b3fa5fbc")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1230314961)
+		(thermal_bridge_angle 45)
+		(uuid "2f6a41e3-f7f1-4f24-98a3-5c024d645543")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0006d27a-5d46-4ed6-a3b7-5aa017fb97dd")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e2b78cb-8903-470d-b22d-525176a8d7bd")
+	)
+	(embedded_fonts no)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz -2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${PD_3D_MODELS}/Female Pin Header.step"
+		(offset
+			(xyz 2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
